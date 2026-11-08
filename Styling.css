@@ -63,7 +63,7 @@ p {
 .greeting {
   background-color: #2a0f5e;
   border: red solid 1px;
-  color: white;
+
   padding: 20px 30px;
   margin-top: 20px;
   margin-left: 40px;
@@ -148,10 +148,10 @@ aside {
 .article1 {
   display: grid;
   gap: 20px;
-  margin: 20px 40px 0;
+  margin-left: 0px;
   gap: 20px;
   border-top: 4px solid rgb(0, 179, 255);
-  width: 50%;
+  width: 100%;
 }
 .article2 {
   display: grid;
