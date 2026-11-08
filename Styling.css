@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(19, 2, 31);
+}
+
+nav {
+  background-color: rgb(32, 6, 55);
+  padding: 5px 30px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: 6px solid yellow;
+}
+
+@font-face {
+  font-family: "Roguepunk";
+  src: url("fonts/Roguepunk-aY3KR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FieldMono";
+  src: url("fonts/Fieldmono-6R7Xg.otf") format("opentype");
+}
+
+body {
+  font-family: "FieldMono", "Courier New", monospace;
+}
+
+.cyberfont {
+  font-family: "Roguepunk", sans-serif;
+  color: yellow;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navbuttons {
+  border: 2px solid rgb(0, 179, 255);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbuttons:hover {
+  background-color: #ff2a6d;
+  color: rgb(19, 2, 31);
+}
+
+p {
+  color: rgba(97, 223, 246, 0.945);
+  font-size: 15px;
+}
+
+.greeting {
+  background-color: #2a0f5e;
+  border: red solid 1px;
+  color: white;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  width: 65%;
+}
+
+.content-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 25%;
+  gap: 20px;
+  align-items: start;
+  margin: 20px 40px 0;
+}
+
+.content-layout .greeting {
+  width: auto;
+  margin: 0;
+}
+
+.main-content {
+  min-width: 0;
+}
+
+.paragraphs {
+  font-family: "FieldMono";
+  color: rgba(97, 223, 246, 0.945);
+}
+
+.widget1 {
+  background-color: rgb(32, 6, 55);
+  border: 2px solid rgb(0, 179, 255);
+  padding: 16px;
+}
+
+.widget2 {
+  background-color: rgb(32, 6, 55);
+  border: 2px solid red;
+  padding: 16px;
+}
+
+aside {
+  display: grid;
+  gap: 20px;
+  align-content: start;
+}
+
+.default {
+  font-family: initial;
+}
+
+.stat {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 8px;
+  align-items: center;
+  margin: 10px 0;
+  color: white;
+  font-size: 14px;
+}
+
+.bar {
+  height: 10px;
+  background-color: #2b1760;
+}
+
+.bar i {
+  display: block;
+  height: 100%;
+  background-color: cyan;
+}
+
+.bar i.pink {
+  background-color: #ff2a6d;
+}
+
+.bar i.green {
+  background-color: #00ff00;
+}
+
+.article1 {
+  display: grid;
+  gap: 20px;
+  margin: 20px 40px 0;
+  gap: 20px;
+  border-top: 4px solid rgb(0, 179, 255);
+  width: 50%;
+}
+.article2 {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+  border: 2px solid red;
+}
+.article3 {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+  border: 2px solid yellow;
+}
