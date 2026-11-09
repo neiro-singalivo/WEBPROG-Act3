@@ -97,6 +97,7 @@ p {
 .paragraphs {
   font-family: "FieldMono";
   color: rgba(97, 223, 246, 0.945);
+  line-height: 1.6;
 }
 
 .widget1 {
@@ -110,6 +111,13 @@ p {
 .widget2 {
   background-color: rgb(32, 6, 55);
   border: 2px solid red;
+  padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.widget3 {
+  background-color: rgb(32, 6, 55);
+  border: 2px solid #00ff00;
   padding: 16px;
   margin: 0;
   box-sizing: border-box;
