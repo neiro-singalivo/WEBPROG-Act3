@@ -228,7 +228,8 @@ nav {
 
 .article1,
 .article2,
-.article3 {
+.article3,
+.article4 {
   background-color: rgba(32, 6, 55, 0.75);
 }
 
@@ -267,10 +268,16 @@ nav {
 
 .article-row > article {
   width: auto;
-  margin: 0;
+  margin: 20px;
   min-width: 0;
   padding: 16px 20px;
+  gap: 8px;
   background-color: rgba(32, 6, 55, 0.75);
+}
+
+.article-row > article h2,
+.article-row > article p {
+  margin: 4px;
 }
 
 .article-section-header {
@@ -280,4 +287,32 @@ nav {
     0 0 6px rgba(255, 255, 0, 0.8),
     0 0 18px rgba(255, 255, 0, 0.5),
     0 0 36px rgba(255, 255, 0, 0.3);
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 30% minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  background-color: rgba(32, 6, 55, 0.75);
+  backdrop-filter: blur(4px);
+  border: 1px solid red;
+  box-shadow:
+    0 0 8px rgba(0, 179, 255, 0.6),
+    0 0 20px rgba(0, 179, 255, 0.3);
+
+  padding: 20px 30px;
+
+  width: 120%;
+}
+
+.profile-image {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.profile > aside {
+  margin-top: 0;
 }
