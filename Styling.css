@@ -119,6 +119,7 @@ aside {
   display: grid;
   gap: 20px;
   align-content: start;
+  margin-top: 25px;
 }
 
 .video-wrap {
