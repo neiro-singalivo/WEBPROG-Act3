@@ -365,3 +365,56 @@ nav {
 .profile > aside {
   margin-top: 0;
 }
+
+@media (max-width: 800px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    margin: 15px;
+  }
+  .article-row {
+    grid-template-columns: 1fr;
+  }
+  .article-row > article {
+    margin: 0;
+  }
+  aside {
+    margin-top: 0;
+  }
+  nav {
+    margin: 15px;
+    padding: 10px 15px;
+  }
+  .navbuttons {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  .greeting {
+    padding: 15px;
+  }
+  .greeting h1 {
+    font-size: 28px !important;
+  }
+  .greeting p {
+    font-size: 16px !important;
+  }
+  .profile {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+  .profile-image {
+    max-width: 260px;
+    height: auto;
+  }
+  .Contactlinks {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 480px) {
+  .Contactlinks {
+    grid-template-columns: 1fr;
+  }
+}
