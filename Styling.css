@@ -103,18 +103,43 @@ p {
   background-color: rgb(32, 6, 55);
   border: 2px solid rgb(0, 179, 255);
   padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .widget2 {
   background-color: rgb(32, 6, 55);
   border: 2px solid red;
   padding: 16px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 aside {
   display: grid;
   gap: 20px;
   align-content: start;
+}
+
+.video-wrap {
+  width: 100%;
+}
+
+.video-wrap iframe,
+.widget2 img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.video-wrap iframe {
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+.widget2 img {
+  height: auto;
 }
 
 .default {
