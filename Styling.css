@@ -119,16 +119,22 @@ p {
 
 .Contactlinks {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Contactlinks li {
+  display: flex;
+  justify-content: center;
 }
 
 .Contactlinks a {
   display: inline-flex;
   align-items: center;
-  justify-self: center;
   gap: 8px;
+  justify-self: center;
   color: dodgerblue;
   font-weight: 600;
   font-size: 1.1rem;
@@ -405,16 +411,7 @@ nav {
     max-width: 260px;
     height: auto;
   }
-  .Contactlinks {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   body {
     background-attachment: scroll;
-  }
-}
-
-@media (max-width: 480px) {
-  .Contactlinks {
-    grid-template-columns: 1fr;
   }
 }
