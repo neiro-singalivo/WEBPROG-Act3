@@ -231,3 +231,12 @@ nav {
   padding: 16px 20px;
   background-color: rgba(32, 6, 55, 0.75);
 }
+
+.article-section-header {
+  font-family: "Roguepunk", sans-serif;
+  color: yellow;
+  text-shadow:
+    0 0 6px rgba(255, 255, 0, 0.8),
+    0 0 18px rgba(255, 255, 0, 0.5),
+    0 0 36px rgba(255, 255, 0, 0.3);
+}
